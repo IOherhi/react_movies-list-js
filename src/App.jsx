@@ -2,13 +2,13 @@
 
 import './App.scss';
 import { MovieList } from './components/MovieList';
+import  movies from './api/movies.json'
 
 export const App = () => (
   <div className="page">
     <div className="page-content">
       <div className="movies">
-        <MovieList />
-        <MovieList />
+        <MovieList movies={movies}/>
       </div>
     </div>
 
