@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 
 import './App.scss';
-import { MovieList } from './components/MovieList'
+import { MovieList } from './components/MovieList';
 
 export const App = () => (
   <div className="page">
